@@ -23,7 +23,7 @@
 
 
 # Support & Updates
-* [Channel]((https://t.me/MeMiC_sQuAd))
+* [Channel](https://t.me/MeMiC_sQuAd)
 * [Support Group](https://t./MeMiC_sQuAd)
 
 # Credits

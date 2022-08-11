@@ -12,9 +12,9 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-pongg = PING_MSG if ALIVE_PIC else "ʀɪᴢᴏᴇʟ X sᴘᴀᴍ"
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
-Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲."
+pongg = PING_MSG if ALIVE_PIC else "𝐌𝐄𝐌𝐈𝐂 X 𝐒𝐏𝐀𝐌"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/440ded1016b54bbe52559.jpg"
+Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝐌𝐄𝐌𝐈𝐂 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲."
 
 rizoel = f"✯ {Alivemsg} ✯\n\n"
 rizoel += f"═══════════════════\n"
@@ -41,11 +41,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/MeMiC_sQuAd"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/MeMiC_sQuAd")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/karanveersinghA3/SpamBot")
         ]
         ]
         )
@@ -94,7 +94,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ {pongg} ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"MEMICXPING\nMEMICOP\nJOKEROP\n\nϟ {pongg} ϟ︎ `{ms}` ᴍs")
         
         
 
@@ -110,7 +110,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
+        text = "**Restarting Your Memic X Spam**.. Please Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()

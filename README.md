@@ -19,12 +19,12 @@
 
 # Deploy on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheRiZoeL/SpamBot-deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/karanveersinghA3/SpamBot)
 
 
 # Support & Updates
-* [Channel](https://t.me/RiZoeLX)
-* [Support Group](https://t.me/DNHcHELL)
+* [Channel]((https://t.me/MeMiC_sQuAd))
+* [Support Group](https://t./MeMiC_sQuAd)
 
 # Credits
 * [RiZoeL](https://github.com/MrRizoel)
